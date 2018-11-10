@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile-1.4.5.min.css"/>
+    <title>大屏管理系统-我爱我家</title>
+</head>
+<body>
+<div data-role="page" style="height: 100%;">
+    <div data-role="header" class="ui-btn">
+        <h1>大屏管理系统-我爱我家</h1>
+    </div>
+    <div id="pageContent" data-role="content" class="ui-btn">
+        <div data-role="fieldcontain">
+            <label for="usr">用户名</label>
+            <input type="text" id="usr" name="usr">
+            <label for="pwd">密码</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <button onclick="screenLogin.login()" data-icon="user" title="黄贺亮: huangheliang@5i5j.com">登录</button>
+    </div>
+    <div data-role="footer" class="ui-btn">
+        <span data-corners="false" style="font-weight: bold;">&copy;我爱我家-技术中心</span>
+    </div>
+</div>
+
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
